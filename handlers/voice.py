@@ -8,7 +8,7 @@ import io
 
 router = Router()
 
-@router.message(F.voice)   # ✅ F.voice ishlatiladi
+@router.message(F.voice)
 async def voice_handler(message: types.Message):
     voice_bytes = io.BytesIO()
     wav_io = io.BytesIO()
