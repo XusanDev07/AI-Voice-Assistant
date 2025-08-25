@@ -2,7 +2,6 @@ import asyncio
 from bot_init import bot, dp
 from handlers import start, voice
 
-# Routerlarni ulash
 dp.include_router(start.router)
 dp.include_router(voice.router)
 
