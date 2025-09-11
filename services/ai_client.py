@@ -20,7 +20,7 @@ def get_ai_response(prompt: str) -> str:
     ]
 
     data = {
-        "model": "llama3-8b-8192",
+        "model": "openai/gpt-oss-120b",
         "messages": messages,
         "temperature": 0.3,
         "max_tokens": 200
